@@ -1,3 +1,9 @@
+#####################################
+# Author: Sachin Das	
+# Date : 12/06/2025
+# Description : Rock Paper Scissors Game
+####################################################
+
 import random
 
 

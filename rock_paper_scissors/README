@@ -1,0 +1,15 @@
+#####################################
+# Author: Sachin Das	
+# Date : 12/06/2025
+# Description : Rock Paper Scissors Game
+####################################################
+- Simple Rock Paper Scissors game implemented in Python.
+- The game allows a player to choose between rock, paper, or scissors.
+- The computer randomly selects one of the three options.
+- The game determines the winner based on the standard rules:
+  - Rock beats Scissors
+  - Scissors beats Paper
+  - Paper beats Rock
+- The game announces the result of the match, indicating whether the player won, lost, or if it was a tie.
+# To run the game, simply execute the script in a Python environment.
+# The player will be prompted to enter their choice, and the game will display the outcome.
