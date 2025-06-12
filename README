@@ -1,0 +1,11 @@
+Learning Python From Scratch
+===================================
+- Functions Perform something when called up on 
+- Dictionaries are key and value pairs included in {}
+  Eg:  dict = {"name": "beau", "color": "blue"}
+- List Used to store multiple items in a single variable in []
+  ○ Eg food = ["pizza", "carrots", "eggs"]
+  ○ dinner = random.choice(food)
+- Python Libraries are set of useful function- so that we don’t have to write code from scratch
+- Import statement are used to import libraries used at the top of a program
+- Adding f in starting of () in print helps to add variables inside string "" in format - {variables}
