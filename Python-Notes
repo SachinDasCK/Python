@@ -1,0 +1,128 @@
+Learning Python From Scratch
+===================================
+- Functions Perform something when called up on 
+
+- Dictionaries are key and value pairs included in {}
+  Eg:  dict = {"name": "beau", "color": "blue"}
+
+- List Used to store multiple items in a single variable in []
+  ○ Eg food = ["pizza", "carrots", "eggs"]
+  ○ dinner = random.choice(food)
+
+- Python Libraries are set of useful function- so that we don’t have to write code from scratch
+
+- Import statement are used to import libraries used at the top of a program
+
+- Adding f in starting of () in print helps to add variables inside string "" in format - {variables}
+
+- Variables- assigning a value to a label , can you a character, number or underscore character (cannot start with a number)
+
+- use ";" to add multiple statmenets in a line - statment does something to a variable or perform actions
+  ○ Eg name = "Sachin"; print(name)
+
+- Comments - Anything after "#" python ingores  - commenting a line 
+
+- Indentation is very important
+
+- Datatypes
+  ----------
+  - String - characters in ""
+  - Integer - numbers 
+  - float - numbers with decimal 
+  - bool - true /false
+  - list 
+  - tuple
+  - range
+  - dict
+  - set
+
+
+  - Checking types type(variable)
+  - or comparing if its a string - we can use isinstance(name,str) - gives bool
+  - Casting - we can change type using the particular types - 20 is int - we can change the type as str("20")- casting needs not work in all cases like int("Hello")
+    Eg: float(2), str("50") etc
+
+
+- Operators
+  ------------
+  - assigning value - "="
+  - Arithmetic operators
+    +, -, *, /, %, **, //, <,>,==,<=,>=,!=
+  - not, and , or 
+  - or - if x is false - then y , else x
+  - and if first argument is true it only evaluates second one - if x is false - else y 
+  - BitWISE Operators
+    - & performs binary AND
+    - | performs binary OR
+    - ^ performs a binary XOR operations
+    - ~ performs a binary NOT operations
+    - << shift left operation
+    - >> shift right operation 
+
+  - identity Operator - is - compare 2 objects and returns true if its same 
+  - membership Operator -  in - to find if a value is in the list 
+  - ternary operator - helps to quickly define a conditional 
+    Eg: return True if age > 18 else False 
+
+  - Operations with string 
+   - add 3 quotation on end and end of a string - then we can write multiline strings 
+      Eg :  print ("""Sachin is 
+      
+      29
+      
+      years old
+      """)
+   - Adding a string to a string you can use "+" or assign string to a variable and use "+=" then string 
+
+  - String Methods - all these return a new string and not change the current one 
+    - string.upper()
+    - string.upper()
+    - string.title()
+    - string.islower() - check if all letters in string is lower
+    - string.isalpha() - to check if string contains only characters and is not empty 
+    - string.isalnum() -  to check if string contains characters or digits and is not empty 
+    - string.isdecimal() - to check if a string contains digits and is not empty  
+    - string.upper()
+    - string.isupper()
+    - string.startsswith() -  to check if a string starts with a specific substring
+    - string.endsswith() - to check if a string end with a specific substring
+    - string.replace()  - replace a part of a string 
+    - string.split()  - split a string on a specific character seperator
+    - string.strip()  - to trim the whitespace from a string
+    - string.join()   -  to append new letters to a string
+    - string.find()   - to find a position of a substring
+
+    - len(string) -  length of a string
+    - use backslash to incorporate doublequotes inside quotes for a string- escape charater 
+    - for a string u can make use of [] brackets to get characters at particular index - index starts from zero - we can use negative too 
+    - We use a range to slice 
+    - string, list, tuples & dictionaries  are only False if empty
+    - any function check if any is true
+    - all function check if all statements are true 
+    - complex no - all no are expressed as sum of a real part and imaginary part 
+
+ - Built in Functions that helps with numbers
+    - abs - absolute value of numbers
+    - round - round numbers to nearest integers
+      we can also mention the rounding to no of decimal point - print (round(5.49,1)) - 1 mentions to round it 1 digit after decimal point
+    - Enums- readable names that are bound to a constant value - assigning values to certain words we can use ENUM
+      Eg : 
+          from enum import Enum
+
+          class state(Enum):
+            INACTIVE = 0
+            ACTIVE = 1
+          
+          print(state.INACTIVE.value)
+
+          gives 0
+
+  - User Input 
+  - input function - helps us to input something 
+  
+  
+  - Control statements
+   
+
+
+ 
