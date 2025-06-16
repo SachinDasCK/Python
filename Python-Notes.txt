@@ -122,7 +122,27 @@ Learning Python From Scratch
   
   
   - Control statements
-   
+    - if a condition is true - it runs the block of code
+
+  - list is an essential python datastructure
+  - list can different types of value each seperated b a comma in square brackets []
+  - list = ["sachin",1,"heyya",4,"dinkan"]
+  - Use "in" to find if some thing is in a list 
+    Eg : list = ["sachin",1,"heyya",4,"dinkan"]
+         print("sachin" in list )
+  - To show an element in a list we can use index
+    print(list[0])
+  - we can slice a list using indexes
+  - list.append - helps to add items to the list toward the end 
+  - we can use list.extend to extend another list to a current list or use += 
+    eg list.extend(["sonu","ponnu",5]) or list += ["sonu","ponnu",5]
+  - list.remove("element") to remove element 
+  - list.pop helps to return and remove items from a list 
+  - list.insert(indexno, element to insert ) - helps to insert any items in respective indices
+  - Inserting multiple items to the list 
+    eg : list[1:1] = ["hlo","help"]
+  - list.sort help to sort items in a list - but only similar datatypes allowed 
+  - 
 
 
  
